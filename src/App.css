@@ -1,5 +1,10 @@
 .App {
+  display: flex;
+  align-items: center;
   text-align: center;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -35,4 +40,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.pp {
+  height: "100vh";
+  background-color: "red";
+  display: "flex";
+  flex-direction: "column";
+  justify-content: "center";
+  align-items: "center";
 }
